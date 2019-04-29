@@ -7,6 +7,7 @@ enum COLORS{BLACK=30, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE}; // foreg$
 // function declarations
 void clearScreen(void);
 void setColors(short);
+void setColors2(short, short);
 void resetColors(void);
 void barChart(int *number_letters, char **duplicates, int number_of_duplicates);
 
