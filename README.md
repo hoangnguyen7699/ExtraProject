@@ -1,16 +1,16 @@
-#This is my extra project  ---- by Hoang Nguyen
+# This is my extra project  ---- by Hoang Nguyen
 
 This program will read a text file and shows how many words are starting with each letter, the second barchart shows how many times a letter has 
 appeared in this file.
 
 
-#List of content
+# List of content
    1. Congfiguration Instruction
    2. Installation Instruction
    3. Operating Instructions
    4. List of Files
    5. Copyright / CopyLeft
-   6. Contact Info.
+   6. Contact Info
    7.Credits and Acknowlegements
 # 1.Configuration Instruction
 * This program is running on Linux OS.
