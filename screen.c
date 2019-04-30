@@ -6,7 +6,7 @@
 #include<stdlib.h>
 
 void barChart(int *number_letters, char **duplicates, int number_of_duplicates){
-	printf("\033[8;180;180t");
+	printf("\033[8;70;160t");
 	clearScreen();
 
 	setColors2(WHITE, bg(RED));
