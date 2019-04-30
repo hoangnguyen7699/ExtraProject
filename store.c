@@ -5,7 +5,7 @@
 char ** get_array(){
 	char ** word=malloc(size()*sizeof(char*));
 	int i=0;
-	char *ch=(char*)malloc(40); //max length each word is 30
+	char *ch=(char*)malloc(40); //max length each word is 40
 	FILE *fp;
 	fp=fopen("wlist.txt", "r");
         while(fscanf(fp, "%s", ch) != EOF){
@@ -19,7 +19,7 @@ char ** get_array(){
 }
 int size(){
 	int i=0;
-        char *ch=(char*)malloc(40); //max length each word is 30
+        char *ch=(char*)malloc(40);
         FILE *fp;
         fp=fopen("wlist.txt", "r");
         while(fscanf(fp, "%s", ch) != EOF){

@@ -11,7 +11,7 @@ void barChart(int *number_letters, char **duplicates, int number_of_duplicates){
 
 	setColors2(WHITE, bg(RED));
 	printf("\033[3;1H");
-	printf("%d duplicates: ", number_of_duplicates);
+	printf("%d duplicated words: ", number_of_duplicates);
 	for(int i=0; i<number_of_duplicates; i++){
 		printf("%s ",duplicates[i]);
 	}
@@ -19,7 +19,7 @@ void barChart(int *number_letters, char **duplicates, int number_of_duplicates){
         while(i<COL*3){
                 for (int j=0; j<number_letters[i]/3.5; j++){
 			printf("\033[%d;%dH", 55-j, i+1); // j is row and i is column
-			//printf("A");
+
                        	if(i%6==0 || i%6==1 || i%6==2) setColors(CYAN);
 			else setColors(GREEN);
 #ifdef UNICODE    // conditional compilation

@@ -2,7 +2,7 @@
 enum COLORS{BLACK=30, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE}; // foreg$
 #define bg(c) (c+10)
 #define COL 52
-#define BAR "\u2589"
+#define BAR "\u2588"
 
 // function declarations
 void clearScreen(void);
