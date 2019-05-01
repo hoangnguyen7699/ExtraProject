@@ -9,7 +9,7 @@ void barChart(int *number_letters, char **duplicates, int number_of_duplicates){
 	printf("\033[8;80;160t");
 	clearScreen();
 
-	//setColors2(WHITE, bg(RED));
+	setColors2(WHITE, bg(RED));
 	printf("\033[3;1H");
 	printf("%d duplicated words: ", number_of_duplicates);
 	for(int i=0; i<number_of_duplicates; i++){
