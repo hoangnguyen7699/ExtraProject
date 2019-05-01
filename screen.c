@@ -17,6 +17,13 @@ void barChart(int *number_letters, char **duplicates, int number_of_duplicates){
 	}
 	int i=0;
         while(i<COL*3){
+		if(number_letters[i]<4 && number_letters[i]!=0){
+			printf("\033[45;%dH", i+1);
+			if(i%6==0 || i%6==1 || i%6==2) setColors(CYAN);
+                        else setColors(GREEN);
+			printf("%s", BAR);
+
+		}
                 for (int j=0; j<number_letters[i]/4; j++){
 			printf("\033[%d;%dH", 45-j, i+1); // j is row and i is column
 
@@ -30,6 +37,7 @@ void barChart(int *number_letters, char **duplicates, int number_of_duplicates){
 	        }
 		if(i%3==0 && number_letters[i]!=0){
 			printf("\033[%d;%dH", 45-(int)(number_letters[i]/4)-1, i+1);
+
 			printf("%d", number_letters[i]);
 		}
 		i++;
