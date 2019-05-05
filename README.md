@@ -15,7 +15,7 @@ appeared in this file.
 # 1.Configuration Instruction
 * This program is running on Linux OS.
 1.1 *Download wlist.txt
-	*Use command "wget http://www.cc.puv.fi/~gc/wlist.txt" to get wlist.txt file.
+	* Use command "wget http://www.cc.puv.fi/~gc/wlist.txt" to get wlist.txt file.
 # 2.Installation Instructions.
   	* In your installation directory, type "make" command to make executable file.
 	* Type "ls" command, you should see a file named "a.out".
